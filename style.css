@@ -1,0 +1,104 @@
+html, body, h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    color: white;
+    display: flex;
+    padding: 2.5rem 3rem;
+    gap: 3rem;
+    z-index: 1;
+}
+
+header a {
+    color: white;
+}
+
+nav {
+    display: flex;
+    gap: 2.3rem;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.feature {
+    height: 100vh;
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+}
+
+.image-galaxy {
+    background-image: url("./images/galaxy.jpg");
+}
+
+.image-landscape {
+    background-image: url("./images/landscape.jpg");
+}
+
+.image-eclipse {
+    background-image: url("./images/eclipse.jpg");
+}
+
+.title {
+    color: white;
+    position: absolute;
+    bottom: 200px;
+    left: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+}
+
+.title-tagline {
+    font-weight: 100;
+    opacity: 1;
+    font-size: 1.2rem;
+}
+
+.title-main {
+    font-size: 2.5rem;
+}
+
+.title-more {
+    margin-top: 1.2rem;
+    display: inline-block;
+    max-width: 200px;
+    font-weight: bold;
+    font-size: 0.85rem;
+    letter-spacing: 0.1rem;
+    opacity: 1;
+    color: white;
+    border: 2px solid white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+.title-more:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: #555;
+    pad: 40px;
+}
